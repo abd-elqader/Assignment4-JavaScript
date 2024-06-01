@@ -1,3 +1,46 @@
+:root{
+    --font-family: 'Pacifico', cursive;
+
+    --primary-color: #24353F;
+    --main-color: #17A2B8;
+}
+
 body {
     background-color: #24353F;
+}
+
+h1{
+    color: #17A2B8;
+}
+
+.main-color{
+    color: var(--main-color);
+}
+
+nav {
+    background-color: #24353F;
+}
+
+
+
+button{
+    color: #17A2B8;
+    width: 100%;
+    background-color: transparent;
+    padding: 7px 10px;
+    border-radius: 7px;
+    border: #17A2B8 1px solid;
+    transition: all .5s;
+}
+
+
+button:hover {
+    
+    background-color: #17A2B8;
+    color: white;
+}
+
+
+input::placeholder {
+    color: gray !important;
 }
